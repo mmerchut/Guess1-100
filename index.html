@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gra w Zgadywanie Liczby</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        input { margin: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Zgadnij Liczbę!</h1>
+    <p>Wybierz zakres (1-100)</p>
+    <button id="startButton">Rozpocznij Grę</button>
+    <div id="game" style="display: none;">
+        <p id="message"></p>
+        <input type="number" id="guessInput" placeholder="Wpisz swoją liczbę">
+        <button id="guessButton">Zgadnij</button>
+        <button id="restartButton" style="display: none;">Zagraj ponownie</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
